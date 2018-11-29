@@ -1,0 +1,153 @@
+body {
+	background-color: #8B575C;
+	font-family: 'Poppins', sans-serif;
+	width: 100%;
+    height: 100%;
+    margin: 0;
+}
+
+.map {
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	z-index: -1;
+	width: 75%;
+	height: 75%;
+	border: 20px solid white;
+	border-radius: 10px;
+	box-shadow: 4px 4px 12px -2px rgba(0, 0, 0, .3);
+}
+
+#asha-text{
+	opacity: 0;
+}
+
+.unhovered #asha {
+	position: fixed;
+	width: 50px;
+	height: auto;
+	top: 35%;
+	left: 20%;
+}
+
+.hovered #asha-hover {
+	position: fixed;
+	width: 50px;
+	height: auto;
+	transform: scale(1.5);
+	top: 33.5%;
+	left: 20%;
+	opacity: 0;
+	transition: 0.4s;
+}
+
+.asha h1 {
+	color: #88BB92;
+	font-size: 20px;
+	text-shadow: 1px 1px 2px;
+	position: fixed;
+	top: 39.5%;
+	left: 15.5%;
+}
+
+#ucha-text{
+	opacity: 0;
+}
+
+.unhovered #ucha {
+	position: fixed;
+	width: 50px;
+	height: auto;
+	top: 63%;
+	left: 28%;
+}
+
+.hovered #ucha-hover {
+	position: fixed;
+	width: 50px;
+	height: auto;
+	top: 61.5%;
+	left: 28%;
+	transform: scale(1.5);
+	opacity: 0;
+}
+
+.ucha h1 {
+	color: #253031;
+	font-size: 20px;
+	text-shadow: 1px 1px 2px;
+	position: fixed;
+	top: 67.5%;
+	left: 27.8%;
+}
+
+#sharetea-text{
+	opacity: 0;
+}
+
+.unhovered #sharetea {
+	position: fixed;
+	width: 50px;
+	height: auto;
+	top: 58%;
+	left: 47.5%;
+}
+
+.hovered #sharetea-hover {
+	position: fixed;
+	width: 50px;
+	height: auto;
+	top: 56.5%;
+	left: 47.5%;
+	transform: scale(1.5);
+	opacity: 0;
+}
+
+.sharetea h1 {
+	color: #FFC9B5;
+	font-size: 20px;
+	text-shadow: 1px 1px 2px;
+	position: fixed;
+	top: 62.5%;
+	left: 45.8%;
+}
+
+#yifang-text{
+	opacity: 0;
+}
+
+.unhovered #yifang {
+	position: fixed;
+	width: 50px;
+	height: auto;
+	top: 57%;
+	left: 51.5%;
+}
+
+.hovered #yifang-hover {
+	position: fixed;
+	width: 50px;
+	height: auto;
+	top: 55.5%;
+	left: 51.5%;
+	transform: scale(1.5);
+	opacity: 0;
+}
+
+.yifang h1 {
+	color: #A7C6DA;
+	font-size: 20px;
+	text-shadow: 1px 1px 2px;
+	position: fixed;
+	top: 61.5%;
+	left: 45%;
+}
+
+.unhovered:hover {
+	cursor: pointer;
+}
+
+.hovered:hover {
+	cursor: pointer;
+}
